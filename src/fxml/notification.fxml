@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.HBox?>
+<fx:root xmlns:fx="http://javafx.com/fxml/1" fx:id="notification_container" alignment="TOP_CENTER" prefHeight="50.0" maxWidth="Infinity"
+         maxHeight="50.0"
+         type="javafx.scene.layout.HBox" xmlns="http://javafx.com/javafx/8.0.111">
+
+</fx:root>

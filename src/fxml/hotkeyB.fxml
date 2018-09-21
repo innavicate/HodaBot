@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<fx:root xmlns:fx="http://javafx.com/fxml/1" fx:id="hotkey" maxWidth="1.7976931348623157E308" type="VBox"
+         xmlns="http://javafx.com/javafx/8.0.111">
+    <children>
+        <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity"
+              minWidth="-Infinity" prefHeight="35.0" prefWidth="250.0" spacing="5.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Label fx:id="hotkey_label" maxWidth="1.7976931348623157E308" prefWidth="150.0"
+                       styleClass="hotkey_label" HBox.hgrow="ALWAYS">
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" top="5.0"/>
+                    </padding>
+                </Label>
+                <Label fx:id="hotkey_key_area" prefWidth="100.0" HBox.hgrow="ALWAYS">
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                    </padding>
+                    <graphic>
+                        <AnchorPane maxWidth="1.7976931348623157E308" styleClass="hotkey_input_label">
+                            <children>
+                                <TextField fx:id="hotkey_key_input" alignment="CENTER" maxWidth="40.0" prefWidth="40.0"
+                                           styleClass="hotkey_key_input" AnchorPane.leftAnchor="5.0"
+                                           AnchorPane.rightAnchor="5.0"/>
+                            </children>
+                        </AnchorPane>
+                    </graphic>
+                    <HBox.margin>
+                        <Insets/>
+                    </HBox.margin>
+                </Label>
+            </children>
+        </HBox>
+    </children>
+</fx:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<fx:root id="item_combobox" fx:id="item_combobox" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="300.0" prefHeight="35.0" prefWidth="350.0" type="VBox" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox fx:id="item_combobox_hbox" alignment="CENTER_LEFT" maxWidth="1.7976931348623157E308" prefHeight="100.0" spacing="10.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Label fx:id="item_combobox_label" maxWidth="1.7976931348623157E308" minWidth="130.0" styleClass="item_combobox_label" text="Label" HBox.hgrow="ALWAYS">
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" top="5.0" />
+                    </padding>
+                    <HBox.margin>
+                        <Insets />
+                    </HBox.margin>
+                </Label>
+                <ComboBox fx:id="item_combobox_combo" maxWidth="200.0" minWidth="100.0" styleClass="item_combobox_combo" HBox.hgrow="NEVER">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                </ComboBox>
+            </children>
+         <VBox.margin>
+            <Insets left="7.0" />
+         </VBox.margin>
+        </HBox>
+    </children>
+    <padding>
+        <Insets left="5.0" />
+    </padding>
+</fx:root>

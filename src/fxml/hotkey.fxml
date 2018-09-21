@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<fx:root xmlns:fx="http://javafx.com/fxml/1" fx:id="hotkey" alignment="TOP_CENTER" prefHeight="60.0"
+         type="javafx.scene.layout.VBox" xmlns="http://javafx.com/javafx/8.0.111">
+    <Label fx:id="hotkey_key_area" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0"
+           prefWidth="35.0" styleClass="hotkey" textAlignment="CENTER">
+        <graphic>
+            <TextField fx:id="hotkey_key_input" alignment="CENTER" prefHeight="35.0" prefWidth="35.0" promptText="..."
+                       styleClass="hotkey_key_input"/>
+        </graphic>
+    </Label>
+    <Label fx:id="hotkey_label" styleClass="hotkey_label"/>
+</fx:root>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<fx:root maxHeight="50.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="300.0" styleClass="container" stylesheets="@../../styles/css/confirm_notification.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="5.0" layoutY="2.0" spacing="5.0" styleClass="vbox" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="description" alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" styleClass="description" textAlignment="CENTER" VBox.vgrow="ALWAYS" />
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" styleClass="hbox">
+               <children>
+                  <JFXButton fx:id="button_apply" buttonType="RAISED" minWidth="80.0" styleClass="button_apply" text="Apply">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></JFXButton>
+                  <JFXButton fx:id="button_discard" buttonType="RAISED" minWidth="80.0" styleClass="button_discard" text="Discard" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</fx:root>
